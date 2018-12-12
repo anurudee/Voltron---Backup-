@@ -1,0 +1,346 @@
+body {background-color : #E9E9E9;}
+
+.menu {
+    letter-spacing: 2px;
+}
+
+h1 {
+        margin-left: 28px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #0ab7d7;
+    font-family: CiscoSansTT Thin,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.33334;
+    padding-top: 2%;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+html {
+  font-family: CiscoSansTT Thin,Helvetica Neue,Helvetica,Arial,sans-serif;
+  height: 100%;
+}
+body {
+  margin: 0px;
+  height: 100%;
+
+}
+
+i#fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  height: auto;
+  min-height: 100%;
+  overflow: hidden;
+  
+}
+.side-menu {
+  //min-width: 250px;
+  width: 250px;
+  float: left;
+  background: #292929;
+  height: auto;
+  min-height: 100%;
+  margin-bottom: -5000px; /* any large number will do */
+  padding-bottom: 5000px; 
+}
+.topmenu{
+  height: 45px;
+  padding: 10px 0px 0px 10px;
+  background: #fff;
+  color: #e1e2fa;
+}
+.logo {
+  background: #292929;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 0px 0px 10px;
+  height: 45px;
+}
+.main-section {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #e1e2fa;
+}
+.menu ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+.menu ul li a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-left: -5px;
+  padding-left: 10px;
+}
+.menu ul li a:hover {
+  background: #0ac391;
+  border-left: solid 5px #32A082;
+  margin-left: -10px;
+  width: 98%;
+}
+.menu ul li ul {
+  padding-left:0px; 
+}
+#showmenu {
+  font-size: 18px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-right: 15px;
+  float: left;
+  //border-right: solid 1px #000;
+  color : black;
+}
+.main-section{
+  background: #f5f5f6;
+  height:100%;
+  margin-bottom: -5000px; /* any large number will do */
+  padding-bottom: 5000px;
+  margin-left: 250px;
+}
+.search {
+  width: 340px;
+  float: left;
+  margin-top:3px;
+  margin-left: 25px;
+  padding-left: 10px;
+  background: #5c66cd;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
+  color: #8089e8;
+}
+input.src {
+  background: none;
+  border: none;
+  width: 300px;
+  font-family: 'Nunito', sans-serif;
+  color: #8089e8;
+  font-size: 13px;
+  font-weight: 600;
+  
+}
+*:focus {
+    outline: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Nunito', sans-serif;
+  color: #8089e8;
+  font-size: 13px;
+  font-weight: 600;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'Nunito', sans-serif;
+  color: #8089e8;
+  font-size: 13px;
+  font-weight: 600;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: 'Nunito', sans-serif;
+  color: #8089e8;
+  font-size: 13px;
+  font-weight: 600;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: 'Nunito', sans-serif;
+  color: #8089e8;
+  font-size: 13px;
+  font-weight: 600;
+}
+.card {
+  padding: 15px;
+  width: 100%%;
+  height : 80%;
+  box-shadow: 0 6px 20px 0px #dce8f4;
+}
+.card-content {
+  color: #32325d;
+  font-weight: 600;
+  font-size: 18px;
+  
+}
+.author {
+  color: #999999;
+  font-size: 36px;
+  margin-top: 20px;
+  
+}
+.status-green {
+  width: 30px;
+  height: 8px;
+  border-radius: 10px;
+  background: #23d2ac;
+  margin-bottom: 15px; 
+}
+.status-blue {
+  width: 30px;
+  height: 8px;
+  border-radius: 10px;
+  background: #33adff;
+  margin-bottom: 15px; 
+}
+.status-red {
+  width: 30px;
+  height: 8px;
+  border-radius: 10px;
+  background: red;
+  margin-bottom: 15px; 
+}
+.section-title {
+    margin-left: 37px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #0ab7d7;
+    font-family: CiscoSansTT Thin,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.33334;
+    padding-top: 2%;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+a#logout {
+	cursor: pointer;
+    float: right;
+    margin-top: -10px;
+    padding: 22px;
+    border: none;
+    background-color: #292929;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+	border-radius: 15px 0px 0px 15px;
+	
+}
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards li {
+  border: 2px solid White;
+  border-radius:5px;
+  background-color: white;
+  color: #626469;
+  flex: 1 1 200px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.cards h2 {
+      background-color: White;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #626469;
+    font-weight: normal;
+}
+
+.cards p {
+  padding: 10px;
+  letter-spacing : 1px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.flex li {
+  flex: 1 1 200px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /*grid-template-columns: repeat(auto-fill, minmax(200px 1fr));*/
+  grid-gap: 20px;
+}
+
+p.ovral {
+    margin-top: -2%;
+    text-align: center;
+}
+
+label.ovral {
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+a.ovral {
+	text-decoration: none;
+    color: #626469;
+}
+
+a.trenddwm {
+	text-decoration: none;
+    color: #6CC04A;
+}
+
+a.trenddwmn {
+	text-decoration: none;
+    color: #F5473E;
+}
+
+a.trenddwmn:hover {
+	text-decoration: none;
+    color: #049FD9;
+}
+
+a.headh {
+    color: #00d6a2;
+    font-size: 2.25rem;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+a.prdmenu {
+    color: #c2c2c2;
+    font-family: CiscoSansTT Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: -1.9% 2% 0% 1%;
+    padding-bottom: 1.0625rem;
+    padding-right: 0;
+    border-bottom: 3px solid transparent;
+    float: right;
+    background: none;
+    font-size: 23px;
+	letter-spacing : 1px;
+}
+
+a.prdmenu:hover {
+    border-bottom-color: #6CC04A;
+    color: #6CC04A;
+    padding-bottom: 1.0625rem;
+}
+
+a.vback {
+    color: white;
+    float: right;
+    margin-top: -2%;
+    margin-right: 3%;
+    background: gray;
+    padding: 3px 15px 3px 15px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+a.vback:hover {background: #6CC04A;}
